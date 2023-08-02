@@ -7,12 +7,14 @@ import { AgGridModule } from 'ag-grid-angular';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DatagridComponent } from './features/datagrid/datagrid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NavBarComponent
+    NavBarComponent,
+    DatagridComponent
   ],
   imports: [
     BrowserModule,
