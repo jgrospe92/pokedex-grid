@@ -1,3 +1,6 @@
+@use 'scss/normalize';
+@use 'scss/root';
+
 /* You can add global styles to this file, and also import other style files */
 @import 'ag-grid-community/styles/ag-grid.css';
 @import 'ag-grid-community/styles/ag-theme-alpine.css';
@@ -7,3 +10,5 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+

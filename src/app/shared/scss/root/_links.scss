@@ -1,0 +1,25 @@
+@use './colors';
+
+@mixin app-root__link {
+    color: colors.$app-root__color--primary--dark_grey;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+
+    &:hover {
+        color: colors.$app_root__color--primary--light_red;
+    }
+
+    &:active {
+        color: colors.$app-root__color--primary--light_blue;
+    }
+
+    &:visited {
+        color: colors.$app-root__color--primary--dark_blue;
+    }
+
+}

@@ -1,0 +1,5 @@
+@use "../scss/root/links";
+
+.footer a {
+    @include links.app-root__link
+}
