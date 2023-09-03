@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300;400&display=swap');
+
 $pokemon-font-path: '../assets/fonts/pokemon';
+
+
 @font-face {
     font-family: 'Pokemon';
     src: url("#{$pokemon-font-path}/Pokemon-Solid.ttf") format('truetype');
