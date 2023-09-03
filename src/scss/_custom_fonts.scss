@@ -1,0 +1,7 @@
+$pokemon-font-path: '../assets/fonts/pokemon';
+@font-face {
+    font-family: 'Pokemon';
+    src: url("#{$pokemon-font-path}/Pokemon-Solid.ttf") format('truetype');
+}
+
+

@@ -28,6 +28,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/assets/fonts",
               {
                 "glob": "*.svg",
                 "input": "./node_modules/bootstrap-icons/",

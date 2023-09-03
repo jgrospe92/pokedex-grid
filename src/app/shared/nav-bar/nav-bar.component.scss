@@ -1,0 +1,12 @@
+
+@import '../scss/root/colors';
+
+.app_navbar{
+    background-color: $app_root__color--primary--light_red;
+
+    &__brand {
+        font-family: 'Pokemon';
+        color: $app-root__color--primary--light_yellow;
+        -webkit-text-stroke: 2px $app-root__color--primary--dark_blue;
+    }
+}
