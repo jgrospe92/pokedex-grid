@@ -1,9 +1,9 @@
-# PokedexGrid :computer:
+# PokeGrid :computer:
 
-- Welcome to the PokeDex Web Application! This web application allows you to easily view or look up specific Pokémon information using the PokeAPI.
+- Welcome to the PokeGrid Web Application! This web application allows you to easily view or look up specific Pokémon information using the PokeAPI.
 
 # Table of Contents
-- [PokedexGrid :computer:](#pokedexgrid-computer)
+- [PokeGrid :computer:](#pokegrid-computer)
 - [Table of Contents](#table-of-contents)
 - [Data Grid Features :file\_cabinet:](#data-grid-features-file_cabinet)
 - [Usage](#usage)
@@ -25,12 +25,12 @@
 - **Mobile Friendly:** Access the PokeDex on your mobile device for on-the-go Pokémon lookup.
 
 # Usage
-Using the PokeDex Web Application is easy:
-On the homepage, you'll see a search bar. Enter the name or ID of the Pokémon you want to look up.
-Hit the "Search" button or press Enter.
-The application will fetch and display detailed information about the Pokémon you requested.
-Explore the various details, including its abilities, types, and base stats.
-Enjoy learning more about your favorite Pokémon!
+- Using the PokeGrid Web Application is easy:
+- On the DataGrid page, by default it will display all the pokemon sorted by region.
+- On the DataGrid page, you'll see a search bar on the data-grid table. Enter the name or ID of the Pokémon you want to look up.
+- The application will fetch and display detailed information about the Pokémon you requested.
+- Explore the various details, including its abilities, types, and base stats.
+- Enjoy learning more about your favorite Pokémon!
 
 # Technologies
 - Angular
