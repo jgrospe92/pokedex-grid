@@ -1,18 +1,27 @@
-@import '../scss/root/colors';
+    @import '../scss/root/colors';
 
-.app_navbar{
-    background-color: $app_root__color--primary--light_red;
 
-    &__brand {
-        margin: 0;
-        font-family: 'Pokemon';
-        color: $app-root__color--primary--light_yellow;
-        -webkit-text-stroke: 2px $app-root__color--primary--dark_blue;
-    };
+    .app_navbar{
+        background-color: $app_root__color--primary--light_red;
 
-    &__item {
-        font-family: 'Rubik', sans-serif !important;
-        font-weight: 300;
-        line-height: 1.5em;
+        &__brand {
+            margin: 0;
+            font-family: 'Pokemon';
+            color: $app-root__color--primary--light_yellow;
+            -webkit-text-stroke: 2px $app-root__color--primary--dark_blue;
+        };
+
+        &__item {
+            font-family: 'Rubik', sans-serif !important;
+            font-weight: 300;
+            line-height: 1.5em;
+        }
+
+        .nav_items {
+            $a-tags: ".app_navbar__item";
+            @include link-colors($a-tags, $app-root_link_hover_text_color, rgb(129, 42, 42), $app-root__color--primary--dark_blue);
+        }
+    
     }
-}
+
+

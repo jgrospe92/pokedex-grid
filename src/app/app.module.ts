@@ -14,8 +14,11 @@ import { HomeComponent } from './pages/home/home.component';
 
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'poke-grid', component: DatagridComponent}
+  {path: 'home', component: HomeComponent},
+  {path: 'poke-grid', component: DatagridComponent},
+  {path: 'about', component: AboutComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: '**', redirectTo: 'home', pathMatch: 'full'}
 ]
 
 @NgModule({

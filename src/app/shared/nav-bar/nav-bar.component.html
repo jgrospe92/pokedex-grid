@@ -8,16 +8,16 @@
 
         <!-- Step 2: Add the ngbCollapse directive to the element below. -->
         <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
+            <ul class="nav nav-pills nav_items">
+                <li class="nav-item">
                     <!-- Step 4: Close the menu when a link is clicked. -->
-                    <a class="nav-link app_navbar__item" [routerLink]="'.'" (click)="isMenuCollapsed = true">Home</a>
+                    <a class="nav-link app_navbar__item" routerLink='/home' routerLinkActive="active"(click)="isMenuCollapsed = true">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link app_navbar__item" [routerLink]="'.'" (click)="isMenuCollapsed = true">PokeGrid</a>
+                    <a class="nav-link app_navbar__item" routerLink="/poke-grid" routerLinkActive="active"(click)="isMenuCollapsed = true">PokeGrid</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link app_navbar__item" [routerLink]="'.'" (click)="isMenuCollapsed = true">About</a>
+                    <a class="nav-link app_navbar__item" routerLink='/about' routerLinkActive="active"(click)="isMenuCollapsed = true">About</a>
                 </li>
             </ul>
         </div>

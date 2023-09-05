@@ -1,9 +1,13 @@
 # PokeGrid :computer:
 
 - Welcome to the PokeGrid Web Application! This web application allows you to easily view or look up specific Pokémon information using the PokeAPI.
+  
+# Project Status :construction:
+** On Going Development**
 
 # Table of Contents
 - [PokeGrid :computer:](#pokegrid-computer)
+- [Project Status :construction:](#project-status-construction)
 - [Table of Contents](#table-of-contents)
 - [Data Grid Features :file\_cabinet:](#data-grid-features-file_cabinet)
 - [Usage](#usage)

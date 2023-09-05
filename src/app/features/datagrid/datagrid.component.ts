@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ColDef } from 'ag-grid-community';
 
 @Component({
@@ -6,7 +6,10 @@ import { ColDef } from 'ag-grid-community';
   templateUrl: './datagrid.component.html',
   styleUrls: ['./datagrid.component.scss']
 })
-export class DatagridComponent {
+export class DatagridComponent implements OnInit{
+  ngOnInit(): void {
+    console.log('Data grid loaded');
+  }
 
   columnDefs: ColDef[] = [
     { field: 'make' },

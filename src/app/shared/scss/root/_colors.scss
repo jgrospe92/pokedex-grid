@@ -1,5 +1,9 @@
 // primary
 $app-root__color--primary--brown: #623108;
+$ap-root_base_text-color: white;
+$app-root_link_hover_text_color: rgb(255, 255, 255);
+$app-root_link_hover_bg: #3c5aa6;
+$app-root_link_active_bg--color : #26E073;
 $app-root__color--primary--light_yellow: #f6bd20;
 $app-root__color--primary--yellow_shadow: #de9400;
 $app-root__color--primary--dark_grey: #292929;
@@ -7,3 +11,30 @@ $app_root__color--primary--light_red: #e65a41;
 $app-root__color--primary--red: #c52018;
 $app-root__color--primary--light_blue: #2a75bb;
 $app-root__color--primary--dark_blue: #3c5aa6;
+
+
+
+@mixin link-colors ($a-tags, $link,$hover, $active) {
+     #{$a-tags} {
+      color: $link;
+
+      &:visited {
+        color: inherit;
+      }
+      &:hover{
+        color: $ap-root_base_text-color;
+        background-color: $hover;
+      }
+      &:active {
+        color: $active;
+      }
+
+      &.active {
+        background-color: transparent;
+        color: $ap-root_base_text-color;
+        
+      }
+      
+    }
+
+  }
