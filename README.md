@@ -12,6 +12,7 @@
 - [Data Grid Features :file\_cabinet:](#data-grid-features-file_cabinet)
 - [Usage](#usage)
 - [Technologies](#technologies)
+- [Resources](#resources)
 - [Contributing](#contributing)
 - [Getting Started](#getting-started)
   - [Development server](#development-server)
@@ -40,6 +41,9 @@
 - Angular
 - Ag-Grid
 - [PokeAPI][Poke-Api]
+
+# Resources
+- Scroll Pagination by [Mozzarela:](https://codepen.io/TheMOZZARELLA)
 
 # Contributing
 We welcome contributions from the Pokémon community. If you'd like to contribute to the development of the PokeGrid Web Application, please follow these steps:
