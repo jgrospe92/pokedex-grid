@@ -1,5 +1,12 @@
 @use "../scss/root/links";
 
-.footer a {
-    @include links.app-root__link
+.app-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+
+    & a {
+        @include links.app-root__link
+    }
 }
